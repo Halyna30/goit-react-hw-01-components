@@ -1,0 +1,14 @@
+.item {
+  padding: 5px;
+}
+
+.statusOnline {
+  background-attachment: green;
+}
+.statusOffline {
+  background-attachment: red;
+}
+.friendList {
+  list-style: none;
+  background-color: chartreuse;
+}
