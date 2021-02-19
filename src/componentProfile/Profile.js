@@ -3,32 +3,32 @@ import s from './Profile.module.css';
 
 const Profile = ({ name, tag, location, avatar, stats }) => {
   return (
-    <div className="profile">
-      <div className="description">
+    <div className={s.profile}>
+      <div className={s.description}>
         <img
           src={avatar}
           alt="Аватар пользователя"
-          className="avatar"
+          className={s.avatar}
           width="150"
-          height="200"
+          height="150"
         />
-        <p className="name">{name}</p>
-        <p className="tag">@{tag}</p>
-        <p className="location">{location}</p>
+        <p className={s.p}>{name}</p>
+        <p className={s.p}>@{tag}</p>
+        <p className={s.p}>{location}</p>
       </div>
 
-      <ul className="stats">
+      <ul className={s.stats}>
         <li>
-          <span className="label">Followers</span>
-          <span className="quantity">{stats.followers}</span>
+          <span className={s.span}>Followers</span>
+          <span className={s.span}>{stats.followers}</span>
         </li>
         <li>
-          <span className="label">Views</span>
-          <span className="quantity">{stats.views}</span>
+          <span className={s.span}>Views</span>
+          <span className={s.span}>{stats.views}</span>
         </li>
         <li>
-          <span className="label">Likes</span>
-          <span className="quantity">{stats.likes}</span>
+          <span className={s.span}>Likes</span>
+          <span className={s.span}>{stats.likes}</span>
         </li>
       </ul>
     </div>

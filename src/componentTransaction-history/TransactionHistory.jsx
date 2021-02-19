@@ -4,20 +4,20 @@ import s from './TransactionHistory.module.css';
 const TransactionHistory = ({ items }) => {
   const trList = items.map(item => {
     return (
-      <tr key={item.id}>
-        <td>{item.type}</td>
-        <td>{item.amount}</td>
-        <td>{item.currency}</td>
+      <tr key={item.id} className={s.tr}>
+        <td className={s.cell}>{item.type}</td>
+        <td className={s.cell}>{item.amount}</td>
+        <td className={s.cell}>{item.currency}</td>
       </tr>
     );
   });
   return (
     <table className={s.transactionHistory}>
-      <thead>
+      <thead className={s.tableTitle}>
         <tr>
-          <th>Type</th>
-          <th>Amount</th>
-          <th>Currency</th>
+          <th className={(s.cell, s.tableTitle)}>Type</th>
+          <th className={(s.cell, s.tableTitle)}>Amount</th>
+          <th className={(s.cell, s.tableTitle)}>Currency</th>
         </tr>
       </thead>
 

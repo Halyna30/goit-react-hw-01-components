@@ -1,8 +1,4 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
+@import 'modern-normalize/modern-normalize.css';
 
 body {
   margin: 0;
@@ -16,17 +12,4 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-.profile {
-  background-color: beige;
-  border-radius: 5px;
-  width: 300px;
-  height: 450px;
-}
-.description {
-  padding: 10px;
-}
-.description > p {
-  display: block;
-  margin: 0 auto;
 }
