@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Halyna30/goit-react-hw-01-components/static/css/main.d2a9a7e2.chunk.css",
+    "main.css": "/Halyna30/goit-react-hw-01-components/static/css/main.e3e70dc7.chunk.css",
     "main.js": "/Halyna30/goit-react-hw-01-components/static/js/main.376b1afc.chunk.js",
     "main.js.map": "/Halyna30/goit-react-hw-01-components/static/js/main.376b1afc.chunk.js.map",
     "runtime-main.js": "/Halyna30/goit-react-hw-01-components/static/js/runtime-main.453d1080.js",
@@ -10,14 +10,14 @@
     "static/js/2.e0b6711b.chunk.js.map": "/Halyna30/goit-react-hw-01-components/static/js/2.e0b6711b.chunk.js.map",
     "index.html": "/Halyna30/goit-react-hw-01-components/index.html",
     "static/css/2.de71bbd8.chunk.css.map": "/Halyna30/goit-react-hw-01-components/static/css/2.de71bbd8.chunk.css.map",
-    "static/css/main.d2a9a7e2.chunk.css.map": "/Halyna30/goit-react-hw-01-components/static/css/main.d2a9a7e2.chunk.css.map",
+    "static/css/main.e3e70dc7.chunk.css.map": "/Halyna30/goit-react-hw-01-components/static/css/main.e3e70dc7.chunk.css.map",
     "static/js/2.e0b6711b.chunk.js.LICENSE.txt": "/Halyna30/goit-react-hw-01-components/static/js/2.e0b6711b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.453d1080.js",
     "static/css/2.de71bbd8.chunk.css",
     "static/js/2.e0b6711b.chunk.js",
-    "static/css/main.d2a9a7e2.chunk.css",
+    "static/css/main.e3e70dc7.chunk.css",
     "static/js/main.376b1afc.chunk.js"
   ]
 }
